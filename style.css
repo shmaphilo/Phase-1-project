@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family:'Playfair Display', serif;
+    list-style: none;
+    text-decoration: none;
+
+}
+body{
+    background-image: url('https://img.freepik.com/free-photo/lone-tree_181624-46361.jpg?w=1380&t=st=1688458443~exp=1688459043~hmac=33370e2ac67cfc388f560f7a70dd70433148b5dc7ae0dc4a3ee221828f029f36');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100% 100%;
+}
+.quote-container{
+    background:silver;
+    width: 700px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+    padding: 38px;
+    border-radius: 10px;
+
+}
+.quote-container h2{
+    font-size: 32px;
+    margin-bottom: 40px;
+    position: relative;
+}
+.quote-container h2::after{
+    content: '';
+    width: 75px;
+    height:3px;
+    position: absolute;
+    border-radius: 3px;
+    bottom:-10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgb(23,124,229);
+    box-shadow: 0 10px 20px 0px rgb(0,0,0,0.15);
+  
+}
+.quote-container blockquote{
+    font-size: 25px;
+    min-height: 110px;
+}
+.quote-container blockquote::before, .quote-container blockquote::after{
+    content: '"';
+}
+.quote-container span{
+    display: block;
+    margin-top: -35px;
+    float: right;
+    position: relative;
+}
+.quote-container span::before{
+    content: '';
+    position: absolute;
+    width:22px ;
+    height: 2px;
+    top: 50%;
+    left: -32px;
+    background: rgb(23,124,229);
+}
+.btns{
+    display: flex;
+    margin-top: 60px;
+    width: 100px;
+    justify-content: center;
+    position: absolute;
+     
+}
+.quote-container button{
+   width: 150px;
+   height: 45px;
+   align-items: center;
+   justify-content: center;
+   background:rgb(23,124,229);
+   color: #fff;
+   border-radius: 25px;
+   margin: 5px;
+   border: 1px solid rgb(23,124,229);
+   cursor: pointer;
+   margin-right: 6px;
+   margin-left: 1px;
+ 
+}
+.quote-container button img{
+   max-width:30px;
+   margin-right: 70px; 
+   margin-left:45px ;
+   position: absolute;
+   margin-top: -7px;
+}
+.quote-container button:nth-child(2){
+    background: transparent;
+    color:#333;
+}
+
+nav{
+    background: rgb(86, 109, 133);
+    height: 70px;
+    width:100%;
+}
+label.kolo{
+    color:black;
+    font-size: 55px;
+    line-height: 75px;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-left:20px;
+}
+nav ul{
+    float:right;
+    margin-right: 20px;
+}
+nav ul li{
+    display:inline-block;
+    line-height: 80px;
+    margin:0 20px;
+    margin-top: -4px;
+    margin-left: 30px;
+}
+nav ul li a{
+    color: white;
+    font-size:18px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 4px;
+}
+a.clue,a:hover{
+    background: #98bbd6;
+    transition: .4s;
+    border: none;
+}
