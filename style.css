@@ -14,7 +14,7 @@ body{
     background-size:100% 100%;
 }
 .quote-container{
-    background:silver;
+    background:rgb(219, 206, 206);
     width: 700px;
     position: absolute;
     top: 50%;
@@ -101,17 +101,18 @@ body{
 }
 
 nav{
-    background: rgb(86, 109, 133);
+    background: rgb(88, 61, 88);
     height: 70px;
     width:100%;
+    position: fixed;
 }
 label.kolo{
-    color:black;
+    color:rgba(163, 158, 159, 0.884);
     font-size: 55px;
     line-height: 75px;
     font-weight: bold;
     margin-top: 70px;
-    margin-left:20px;
+    margin-left:10px;
 }
 nav ul{
     float:right;
@@ -132,7 +133,7 @@ nav ul li a{
     border-radius: 4px;
 }
 a.clue,a:hover{
-    background: #98bbd6;
+    background: #a697ac;
     transition: .4s;
     border: none;
 }
